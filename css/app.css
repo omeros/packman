@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(57, 67, 77);
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  /* background-color: aliceblue; */
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.game-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.play-btn:hover{
+  opacity: 0.4;
+}
+.play-btn{
+  border-radius: 8px;
+  height: 40px;
+  width: 90px;
+  font-size: medium;
+  cursor: pointer;
+  background-color: rgba(194, 240, 134, 0.87);
+  box-shadow: 0px 0px 3px 3px #888888be;    
+  padding: 3px;
+
+}
+
+
+.ghost{
+  color: rgb(218, 109, 66);
+}
+.ghost0{
+  color: rgb(189, 39, 131);
+}
+.ghost1{
+  color: rgb(54, 168, 9);
+}
+.ghost2{
+  color: rgb(70, 218, 223);
+}
+.power-food{
+  color: rgb(164, 221, 98);
+
+}
+.modal button {
+  float:right;
+  border-radius: 15px;
+
+}
+.color1{
+  background-color: aliceblue;
+}
+.cherry{
+  color: rgb(192, 25, 207);
+}
+
+
+.modal {
+  box-shadow: -5px 5px 10px 10px #888888be;    
+  background-color: rgba(32, 178, 171, 0.205);
+  display:none;
+  position: absolute;
+  top:130px;
+  right: 350px;
+  padding: 5px;
+  width: 600px;
+  border-radius: 15px;
+  font-size: 50px;
+  font-variant-position:center ;
+  text-align: center;
+  padding: 150px 0;
+
+}
