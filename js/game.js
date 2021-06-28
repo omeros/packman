@@ -54,6 +54,7 @@ function updateScore(diff) {
     if (gGame.score >= 60) {
         openModal();
         gameOver(true);
+    
 
 
     }
@@ -72,6 +73,7 @@ function gameOver(isWin) {
     clearInterval(gIntervalGhosts)
     clearInterval(gIntervalCherry)
     gGame.isOn = false
+  
 }
 
 // // figure out nextLocation
@@ -97,6 +99,8 @@ function gameOver(isWin) {
 
 function playAgain() {
     closeModal();
+    const elScore = document.querySelector('h2 span')
+    elScore.innerText = 0
     init();
 }
 
