@@ -41,16 +41,16 @@ body {
 
 
 .ghost{
-  color: rgb(218, 109, 66);
+  color: rgb(5, 92, 255);
 }
 .ghost0{
-  color: rgb(189, 39, 131);
+  color: rgb(218, 42, 150);
 }
 .ghost1{
-  color: rgb(54, 168, 9);
+  color: rgb(76, 253, 6);
 }
 .ghost2{
-  color: rgb(70, 218, 223);
+  color: rgb(0, 255, 191);
 }
 .power-food{
   color: rgb(164, 221, 98);
@@ -74,7 +74,7 @@ body {
   background-color: rgba(32, 178, 171, 0.205);
   display:none;
   position: absolute;
-  top:130px;
+  top:120px;
   right: 330px;
   padding: 5px;
   width: 600px;
@@ -82,6 +82,6 @@ body {
   font-size: 50px;
   font-variant-position:center ;
   text-align: center;
-  padding: 150px 0;
+  padding: 160px 0;
 
 }
